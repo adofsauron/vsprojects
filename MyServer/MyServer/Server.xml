@@ -1,0 +1,11 @@
+<RootNode>
+  
+  <TEST>
+    <TM value="9"   />
+    <TA value="10"  />
+    <TS value="11"  />
+  </TEST>
+
+  <Net ip="127.0.0.1" port="883" />
+  
+</RootNode>

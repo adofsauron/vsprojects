@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c_socket.io_server\client_session.c" />
+    <ClCompile Include="c_socket.io_server\endpoints.c" />
+    <ClCompile Include="c_socket.io_server\example\chatroom.c" />
+    <ClCompile Include="c_socket.io_server\example\socket.io_server.c" />
+    <ClCompile Include="c_socket.io_server\example\whiteboard.c" />
+    <ClCompile Include="c_socket.io_server\flashsocket.c" />
+    <ClCompile Include="c_socket.io_server\handle_static.c" />
+    <ClCompile Include="c_socket.io_server\htmlfile.c" />
+    <ClCompile Include="c_socket.io_server\include\c-websocket\base64.c" />
+    <ClCompile Include="c_socket.io_server\include\c-websocket\cWebSockets.c" />
+    <ClCompile Include="c_socket.io_server\include\c-websocket\md5.c" />
+    <ClCompile Include="c_socket.io_server\include\c-websocket\sha1.c" />
+    <ClCompile Include="c_socket.io_server\include\http-parser\ghashdemo.c" />
+    <ClCompile Include="c_socket.io_server\include\http-parser\http_parser.c" />
+    <ClCompile Include="c_socket.io_server\include\http-parser\test.c" />
+    <ClCompile Include="c_socket.io_server\jsonp-polling.c" />
+    <ClCompile Include="c_socket.io_server\log.c" />
+    <ClCompile Include="c_socket.io_server\parseurl.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_base.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_handle_post.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_handle_request.c" />
+    <ClCompile Include="c_socket.io_server\socket_io.c" />
+    <ClCompile Include="c_socket.io_server\store.c" />
+    <ClCompile Include="c_socket.io_server\transports.c" />
+    <ClCompile Include="c_socket.io_server\websocket.c" />
+    <ClCompile Include="c_socket.io_server\xhr-polling.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_socket.io_server\endpoint.h" />
+    <ClInclude Include="c_socket.io_server\endpoint_impl.h" />
+    <ClInclude Include="c_socket.io_server\include\c-websocket\base64.h" />
+    <ClInclude Include="c_socket.io_server\include\c-websocket\cWebSockets.h" />
+    <ClInclude Include="c_socket.io_server\include\c-websocket\md5.h" />
+    <ClInclude Include="c_socket.io_server\include\c-websocket\sha1.h" />
+    <ClInclude Include="c_socket.io_server\include\ev.h" />
+    <ClInclude Include="c_socket.io_server\include\http-parser\http_parser.h" />
+    <ClInclude Include="c_socket.io_server\log.h" />
+    <ClInclude Include="c_socket.io_server\safe_mem.h" />
+    <ClInclude Include="c_socket.io_server\socket.io_server.h" />
+    <ClInclude Include="c_socket.io_server\socket_io.h" />
+    <ClInclude Include="c_socket.io_server\store.h" />
+    <ClInclude Include="c_socket.io_server\transport.h" />
+    <ClInclude Include="c_socket.io_server\transports.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="c_socket.io_server\include\c-websocket\README.txt" />
+    <Text Include="c_socket.io_server\log\NOTE.TXT" />
+    <Text Include="c_socket.io_server\static\NOTE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="c_socket.io_server\.gitignore" />
+    <None Include="c_socket.io_server\include\http-parser\AUTHORS" />
+    <None Include="c_socket.io_server\include\http-parser\CONTRIBUTIONS" />
+    <None Include="c_socket.io_server\include\http-parser\http_parser.gyp" />
+    <None Include="c_socket.io_server\include\http-parser\http_parser.o" />
+    <None Include="c_socket.io_server\include\http-parser\LICENSE-MIT" />
+    <None Include="c_socket.io_server\include\http-parser\Makefile" />
+    <None Include="c_socket.io_server\include\http-parser\README.md" />
+    <None Include="c_socket.io_server\include\libev.a" />
+    <None Include="c_socket.io_server\log.conf" />
+    <None Include="c_socket.io_server\Makefile" />
+    <None Include="c_socket.io_server\need.todo" />
+    <None Include="c_socket.io_server\README.md" />
+    <None Include="c_socket.io_server\server.ini" />
+    <None Include="c_socket.io_server\static\chatroom.html" />
+    <None Include="c_socket.io_server\static\index.html" />
+    <None Include="c_socket.io_server\static\js\canvas-menu.js" />
+    <None Include="c_socket.io_server\static\js\canvas-socketio.js" />
+    <None Include="c_socket.io_server\static\js\canvas-touch.js" />
+    <None Include="c_socket.io_server\static\js\canvasdraw.js" />
+    <None Include="c_socket.io_server\static\js\excanvas.js" />
+    <None Include="c_socket.io_server\static\js\jquery-1.6.2.js" />
+    <None Include="c_socket.io_server\static\js\jquery-1.8.3.min.js" />
+    <None Include="c_socket.io_server\static\socket.io\socket.io.js" />
+    <None Include="c_socket.io_server\static\socket.io\static\flashsocket\WebSocketMain.swf" />
+    <None Include="c_socket.io_server\static\socket.io\static\flashsocket\WebSocketMainInsecure.swf" />
+    <None Include="c_socket.io_server\static\whiteboard.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="c_socket.io_server\static\favicon.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FAA8060C-C595-4815-8FB2-74C6801B18AB}</ProjectGuid>
+    <RootNamespace>SocketServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{9b5a0d89-9c14-41b6-9a79-5b9c4f98c74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{53d6abd8-8f2a-4113-a11f-23281864d49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{5609cb66-19d3-4c53-8116-01ab2d92bf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="static">
+      <UniqueIdentifier>{3151a7e6-4e60-4c31-aca1-495c43fe82ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\c-webSocket">
+      <UniqueIdentifier>{fea76632-35bf-41fc-a1cb-8aa100a0c5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\http-parser">
+      <UniqueIdentifier>{4e0ef5eb-f8e9-4220-9c3e-0d9b0abb86c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c_socket.io_server\example\chatroom.c">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\example\socket.io_server.c">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\example\whiteboard.c">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\c-websocket\base64.c">
+      <Filter>include\c-webSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\c-websocket\cWebSockets.c">
+      <Filter>include\c-webSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\c-websocket\md5.c">
+      <Filter>include\c-webSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\c-websocket\sha1.c">
+      <Filter>include\c-webSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\http-parser\ghashdemo.c">
+      <Filter>include\http-parser</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\http-parser\http_parser.c">
+      <Filter>include\http-parser</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\include\http-parser\test.c">
+      <Filter>include\http-parser</Filter>
+    </ClCompile>
+    <ClCompile Include="c_socket.io_server\client_session.c" />
+    <ClCompile Include="c_socket.io_server\endpoints.c" />
+    <ClCompile Include="c_socket.io_server\flashsocket.c" />
+    <ClCompile Include="c_socket.io_server\handle_static.c" />
+    <ClCompile Include="c_socket.io_server\htmlfile.c" />
+    <ClCompile Include="c_socket.io_server\jsonp-polling.c" />
+    <ClCompile Include="c_socket.io_server\log.c" />
+    <ClCompile Include="c_socket.io_server\parseurl.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_base.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_handle_post.c" />
+    <ClCompile Include="c_socket.io_server\socket.io_handle_request.c" />
+    <ClCompile Include="c_socket.io_server\socket_io.c" />
+    <ClCompile Include="c_socket.io_server\store.c" />
+    <ClCompile Include="c_socket.io_server\transports.c" />
+    <ClCompile Include="c_socket.io_server\websocket.c" />
+    <ClCompile Include="c_socket.io_server\xhr-polling.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_socket.io_server\include\c-websocket\base64.h">
+      <Filter>include\c-webSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\include\c-websocket\cWebSockets.h">
+      <Filter>include\c-webSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\include\c-websocket\md5.h">
+      <Filter>include\c-webSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\include\c-websocket\sha1.h">
+      <Filter>include\c-webSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\include\http-parser\http_parser.h">
+      <Filter>include\http-parser</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\include\ev.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="c_socket.io_server\endpoint.h" />
+    <ClInclude Include="c_socket.io_server\endpoint_impl.h" />
+    <ClInclude Include="c_socket.io_server\log.h" />
+    <ClInclude Include="c_socket.io_server\safe_mem.h" />
+    <ClInclude Include="c_socket.io_server\socket.io_server.h" />
+    <ClInclude Include="c_socket.io_server\socket_io.h" />
+    <ClInclude Include="c_socket.io_server\store.h" />
+    <ClInclude Include="c_socket.io_server\transport.h" />
+    <ClInclude Include="c_socket.io_server\transports.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="c_socket.io_server\include\c-websocket\README.txt">
+      <Filter>include\c-webSocket</Filter>
+    </Text>
+    <Text Include="c_socket.io_server\log\NOTE.TXT">
+      <Filter>log</Filter>
+    </Text>
+    <Text Include="c_socket.io_server\static\NOTE.txt">
+      <Filter>static</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="c_socket.io_server\include\http-parser\AUTHORS">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\CONTRIBUTIONS">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\http_parser.gyp">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\http_parser.o">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\LICENSE-MIT">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\Makefile">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\http-parser\README.md">
+      <Filter>include\http-parser</Filter>
+    </None>
+    <None Include="c_socket.io_server\include\libev.a">
+      <Filter>include</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\chatroom.html">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\index.html">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\whiteboard.html">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\canvasdraw.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\canvas-menu.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\canvas-socketio.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\canvas-touch.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\excanvas.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\jquery-1.6.2.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\js\jquery-1.8.3.min.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\socket.io\socket.io.js">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\socket.io\static\flashsocket\WebSocketMain.swf">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\static\socket.io\static\flashsocket\WebSocketMainInsecure.swf">
+      <Filter>static</Filter>
+    </None>
+    <None Include="c_socket.io_server\.gitignore" />
+    <None Include="c_socket.io_server\log.conf" />
+    <None Include="c_socket.io_server\Makefile" />
+    <None Include="c_socket.io_server\need.todo" />
+    <None Include="c_socket.io_server\README.md" />
+    <None Include="c_socket.io_server\server.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="c_socket.io_server\static\favicon.ico">
+      <Filter>static</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

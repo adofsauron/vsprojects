@@ -1,0 +1,83 @@
+﻿生成启动时间为 2015/4/8 15:13:41。
+     1>项目“D:\users\adofs\documents\visual studio 2013\Projects\SocketServer\SocketServer\SocketServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt c_socket.io_server\client_session.c c_socket.io_server\endpoints.c c_socket.io_server\example\chatroom.c c_socket.io_server\example\whiteboard.c c_socket.io_server\flashsocket.c c_socket.io_server\handle_static.c c_socket.io_server\htmlfile.c "c_socket.io_server\include\c-websocket\base64.c" "c_socket.io_server\include\c-websocket\cWebSockets.c" "c_socket.io_server\include\http-parser\ghashdemo.c" "c_socket.io_server\include\http-parser\test.c" "c_socket.io_server\jsonp-polling.c" c_socket.io_server\log.c c_socket.io_server\parseurl.c c_socket.io_server\socket.io_base.c c_socket.io_server\socket.io_handle_post.c c_socket.io_server\socket.io_handle_request.c c_socket.io_server\socket_io.c c_socket.io_server\store.c c_socket.io_server\transports.c c_socket.io_server\websocket.c "c_socket.io_server\xhr-polling.c"
+         xhr-polling.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         websocket.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         transports.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.h(4): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         store.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         socket_io.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.c(2): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory
+         socket.io_handle_request.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket.io_handle_request.c(9): fatal error C1083: 无法打开包括文件: “uuid/uuid.h”: No such file or directory
+         socket.io_handle_post.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.h(4): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         socket.io_base.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket.io_base.c(10): fatal error C1083: 无法打开包括文件: “uuid/uuid.h”: No such file or directory
+         parseurl.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.h(4): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         log.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\log.c(3): fatal error C1083: 无法打开包括文件: “zlog.h”: No such file or directory
+         jsonp-polling.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         test.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(392): error C2059: 语法错误:“}”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(428): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(449): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(467): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(502): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(528): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(547): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(566): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(591): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(620): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(639): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(659): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(679): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(707): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(777): error C2059: 语法错误:“,”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(778): error C2059: 语法错误:“}”
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\test.c(783): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         ghashdemo.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\http-parser\ghashdemo.c(1): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         cWebSockets.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(78): warning C4028: 形参 4 与声明不同
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(85): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(174): warning C4013: “snprintf”未定义；假设外部返回 int
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(262): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(263): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(264): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(265): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\cwebsockets.c(342): warning C4018: “<”: 有符号/无符号不匹配
+         base64.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\base64.c(183): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\include\c-websocket\base64.c(204): warning C4018: “<”: 有符号/无符号不匹配
+         htmlfile.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         handle_static.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\handle_static.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.h(4): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         flashsocket.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\store.h(3): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         whiteboard.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\example\whiteboard.c(5): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         chatroom.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\example\chatroom.c(5): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         endpoints.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\endpoints.c(5): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         client_session.c
+     1>d:\users\adofs\documents\visual studio 2013\projects\socketserver\socketserver\c_socket.io_server\socket_io.h(4): fatal error C1083: 无法打开包括文件: “glib.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\users\adofs\documents\visual studio 2013\Projects\SocketServer\SocketServer\SocketServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.32

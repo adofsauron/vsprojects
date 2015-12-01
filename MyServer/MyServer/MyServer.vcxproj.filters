@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ae1e7a1f-6fbe-4b4c-b4ca-5cdbb619808e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f9c2573d-a52e-422a-b610-ae820e420da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{e9b40b61-c362-4a84-b43c-a9f8475f2b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{3ff33ea4-663d-4b23-83db-29f3c6381057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Tiny">
+      <UniqueIdentifier>{eab13a9f-7fd4-40f9-943b-ec09f6161c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TSR">
+      <UniqueIdentifier>{523fc436-2247-40e2-bc41-4b448a8147fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{4c763127-5875-4426-9e89-009658b58bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Client">
+      <UniqueIdentifier>{a5b0cba2-22e0-4d71-a419-337e0a3eef7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Socket">
+      <UniqueIdentifier>{39fb5061-1737-4141-b0a8-e58e2191b466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d11bfca3-dfba-4bfa-8ab0-6fa659a3a74e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Tools\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Tools\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Tools\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Tools\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.c">
+      <Filter>TSR</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketFactoryMangager.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="CJoinGame.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CInitGame.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadOver.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CStatus.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemage.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDeath.cpp">
+      <Filter>Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Base\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketAPI.cpp">
+      <Filter>Base\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketInputStream.cpp">
+      <Filter>Base\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketOutputStream.cpp">
+      <Filter>Base\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinystr.h">
+      <Filter>Tools\Tiny</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Tools\Tiny</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseType.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Epoll.c">
+      <Filter>TSR</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDefined.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketFactoryMangager.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="CJoinGame.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CInitGame.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadOver.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CStatus.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemage.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDeath.h">
+      <Filter>Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Base\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAPI.h">
+      <Filter>Base\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketInputStream.h">
+      <Filter>Base\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketOutputStream.h">
+      <Filter>Base\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Server.xml">
+      <Filter>Doc</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Tools</Filter>
+    </None>
+  </ItemGroup>
+</Project>
